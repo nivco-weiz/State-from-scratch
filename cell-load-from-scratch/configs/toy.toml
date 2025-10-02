@@ -1,0 +1,6 @@
+# configs/toy.toml
+[datasets]
+toyset = "/home/projects/nyosef/nivco/cell-load-from-scratch/data/toyset"
+
+[training]
+toyset = "train"

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.build/
+dist/
+*.so
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Virtual envs (adjust to yours)
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# Data / runs (keep small demo data only)
+data/
+logs/
+checkpoints/
+
+# OS
+.DS_Store
+
+# If you want to keep small demo data, comment the "data/" line above and track selectively.
