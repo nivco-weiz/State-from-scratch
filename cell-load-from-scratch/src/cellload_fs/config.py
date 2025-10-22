@@ -1,4 +1,4 @@
-# src/cellload_fs/config.py
+# cell-load-from-scratch/src/cellload_fs/config.py
 from dataclasses import dataclass
 import tomli
 

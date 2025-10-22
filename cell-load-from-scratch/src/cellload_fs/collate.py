@@ -1,4 +1,4 @@
-# src/cellload_fs/simple_collate.py
+# cell-load-from-scratch/src/cellload_fs/simple_collate.py
 import torch
 
 def simple_collate(batch):

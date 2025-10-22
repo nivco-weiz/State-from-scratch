@@ -1,4 +1,4 @@
-# scripts/make_toy_h5ad.py
+# cell-load-from-scratch/scripts/make_toy_h5ad.py
 import numpy as np, pandas as pd, anndata as ad, os
 rng = np.random.default_rng(0)
 
@@ -32,6 +32,7 @@ def make_celltype(name: str, n_cells=600, n_genes=1000):
 
 	selected_genes = gene_names[:128]
 	adata.obsm["X_selected_genes"] = adata[:,selected_genes].X
+	adata.uns["selected_genes"] = selected_genes
 	return adata
 
 for ct in ["jurkat", "rpe1"]:

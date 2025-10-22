@@ -1,4 +1,4 @@
-# src/cellload_fs/dataset.py
+# cell-load-from-scratch/src/cellload_fs/dataset.py
 from dataclasses import dataclass
 from typing import List, Dict, Tuple
 import numpy as np
