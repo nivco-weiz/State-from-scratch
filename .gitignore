@@ -29,3 +29,7 @@ checkpoints/
 .DS_Store
 
 # If you want to keep small demo data, comment the "data/" line above and track selectively.
+cell-eval-from-scratch/outputs/
+cell-load-from-scratch/data/
+**/__pycache__/
+*.pyc
