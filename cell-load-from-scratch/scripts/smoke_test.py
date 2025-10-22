@@ -1,8 +1,7 @@
-# scripts/smoke_test.py
+# cell-load-from-scratch/scripts/smoke_test.py
 from pathlib import Path
 import sys
 sys.path.insert(0, str(Path(__file__).parents[1] / "src"))
-
 
 from pathlib import Path
 from torch.utils.data import DataLoader

@@ -1,4 +1,4 @@
-# src/cellload_fs/io.py
+# cell-load-from-scratch/src/cellload_fs/io.py
 from pathlib import Path
 import anndata as ad
 

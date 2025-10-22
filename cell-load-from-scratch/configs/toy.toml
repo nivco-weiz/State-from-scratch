@@ -1,4 +1,4 @@
-# configs/toy.toml
+# cell-load-from-scratch/configs/toy.toml
 [datasets]
 toyset = "/home/projects/nyosef/nivco/State-from-scratch/cell-load-from-scratch/data/toyset"
 
